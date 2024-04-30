@@ -11,7 +11,7 @@ int main(void) {
 	width = (n + a - 1) / a;
 	height = (m + a - 1) / a;
 
-	cout << width + height;
+	cout << width * height;
 
 	return (0);
 }
